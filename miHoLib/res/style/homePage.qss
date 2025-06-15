@@ -1,0 +1,99 @@
+/* 主窗口背景 */
+#HomePage {
+    background-color: #f5f5f5;
+}
+
+/* 欢迎区域卡片 */
+#welcomeFrame {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                 stop:0 #667eea, stop:1 #764ba2);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+/* 欢迎标题（主视觉） */
+#welcomeTitle { 
+    background-color: rgba(0,0,0,0.05);
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 8px;
+}
+
+/* 当前时间标签（次要） */
+#timeLabel {
+    background-color: rgba(0,0,0,0.05);
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* 欢迎描述（辅助文字） */
+#welcomeDesc {
+    background-color: rgba(0,0,0,0.05);
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* 月报标题 */
+#statsTitle {
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* 卡片通用样式 */
+QFrame#card {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+}
+
+/* 卡片标题 */
+QLabel#cardTitle {
+    color: #444;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+/* 逾期率内容（数字视觉焦点） */
+#overdueRateLabel {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* 逾期描述 */
+#overdueDesc {
+    color: #999;
+    font-size: 13px;
+}
+
+/* 表格样式 */
+QTableWidget {
+    border: none;
+    background-color: transparent;
+    font-size: 13px;
+}
+
+QTableWidget::item {
+    padding: 8px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+QTableWidget::item:selected {
+    background-color: #e3f2fd;
+}
+
+QHeaderView::section {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border: none;
+    font-weight: 600;
+    color: #666;
+    font-size: 13px;
+}

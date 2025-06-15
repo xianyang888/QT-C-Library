@@ -1,0 +1,30 @@
+/* ===== 关于页面整体样式 ===== */
+#aboutPage {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                stop:0 #fafafa, stop:1 #86c7e3);
+}
+
+/* ===== Logo样式 ===== */
+QLabel#logoLabel {
+    background: transparent ;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+/* ===== 版本标签样式 ===== */
+#versionLabel {
+    font-family: 'Segoe UI', 'Microsoft YaHei UI', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    padding: 8px 20px;
+}
+
+/* ===== 版权信息样式 ===== */
+#copyrightLabel {
+    font-family: 'Segoe UI', 'Microsoft YaHei UI', sans-serif;
+    font-size: 14px;
+    color: #7f8c8d;
+    padding: 8px 20px;
+}
+

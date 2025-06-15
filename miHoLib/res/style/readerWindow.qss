@@ -1,0 +1,99 @@
+/* ===========================
+   全局基础样式
+   =========================== */
+   QWidget {
+    color: #333;
+    background-color: #F9F9F9;
+    font-family: "KaiTi", "Microsoft YaHei", sans-serif;
+}
+
+/* ===========================
+   侧边栏容器
+   =========================== */
+#navWidget {
+    background: linear-gradient(to bottom, #F8F9FA, #F8FAFC);
+    min-width: 220px;
+    max-width: 240px;
+    border-right: 1px solid #E0E0E0;
+    border-radius: 0 8px 0 0;
+}
+
+/* ===========================
+   侧边栏标题
+   =========================== */
+#titleLabel {
+    font-weight: bold;
+    font-size: 18px;
+    color: #2C3E50;
+    padding: 16px 24px;
+    background-color: #F1F3F6;
+    border-bottom: 1px solid #DDE1E6;
+    border-radius: 0 0 8px 0;
+}
+
+/* ===========================
+   侧边栏按钮
+   =========================== */
+QPushButton#sidebarButton {
+    padding: 10px 0px 10px 0px;
+    margin: 2px 8px 2px 0px;
+    border: none;
+    background-color: transparent;
+    border-radius: 6px;
+    color: #444;
+    text-align: left;
+    /*transition: all 0.2s ease;*/
+    font-family: "Font Awesome 5 Free Solid", "KaiTi", "Microsoft YaHei", sans-serif;
+}
+
+/* Hover 效果 */
+QPushButton#sidebarButton:hover {
+    background-color: #E4EAF1;
+    color: #2C3E50;
+    padding-left: 8px;
+    border-left: 4px solid #38B2AC;
+}
+
+/* Checked 效果 */
+QPushButton#sidebarButton:checked {
+    background-color: #D0D7E2;
+    color: #2C3E50;
+    font-weight: bold;
+    padding-left: 12px;
+    border-left: 4px solid #319795;
+}
+
+/* ===========================
+   按钮内标签
+   =========================== */
+
+QPushButton#sidebarButton QLabel#iconLabel {
+    color: inherit;
+    font-size: 14px;
+    background: transparent;
+    font-family: "Font Awesome 5 Free Solid", "Microsoft YaHei", sans-serif;
+}
+QPushButton#sidebarButton QLabel#textLabel {
+    color: inherit;
+    padding: 0px;
+    font-size: 14px;
+    background: transparent;
+    font-family: "KaiTi", "Microsoft YaHei", sans-serif;
+}
+
+QPushButton#sidebarButton:hover QLabel#iconLabel,
+QPushButton#sidebarButton:hover QLabel#textLabel,
+QPushButton#sidebarButton:checked QLabel#iconLabel,
+QPushButton#sidebarButton:checked QLabel#textLabel {
+    color: #2C3E50;
+    font-weight: bold;
+}
+
+/* ===========================
+   内容区域
+   =========================== */
+QStackedWidget {
+    border-radius: 8px;
+    margin: 8px;
+    background-color: white;
+}

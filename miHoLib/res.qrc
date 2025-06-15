@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>res/icons/miHoLib.png</file>
+        <file>res/icons/close.svg</file>
+        <file>res/icons/mihoyo.png</file>
+        <file>res/icons/question.png</file>
+        <file>res/icons/zstu.png</file>
+        <file>res/icons/zstu_big.png</file>
+    </qresource>
+    <qresource prefix="/data">
+        <file>res/data/admin.dat</file>
+        <file>res/data/books.dat</file>
+        <file>res/data/loans.dat</file>
+        <file>res/data/reader.dat</file>
+    </qresource>
+    <qresource prefix="/font">
+        <file>res/font/fa-brands-400.ttf</file>
+        <file>res/font/fa-regular-400.ttf</file>
+        <file>res/font/fa-solid-900.ttf</file>
+    </qresource>
+    <qresource prefix="/pic">
+        <file>res/pic/pm_question.png</file>
+    </qresource>
+    <qresource prefix="/style">
+        <file>res/style/aboutPage.qss</file>
+        <file>res/style/adminWindow.qss</file>
+        <file>res/style/homePage.qss</file>
+        <file>res/style/login.qss</file>
+        <file>res/style/readerWindow.qss</file>
+    </qresource>
+</RCC>

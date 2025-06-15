@@ -1,0 +1,81 @@
+﻿/* ===========================
+   全局基础样式
+   =========================== */
+QWidget {
+    color: #333;
+    background-color: #F9F9F9;
+}
+
+/* ===========================
+   侧边栏标题
+   =========================== */
+#titleLabel {
+    font-weight: bold;
+    color: #2C3E50;
+    padding: 16px 24px;
+    background-color: #F1F3F6;
+    border-bottom: 1px solid #DDE1E6;
+}
+
+/* ===========================
+   侧边栏容器
+   =========================== */
+#navWidget {
+    background-color: #F8F9FA; /*核心:分层思想+继承*/
+    min-width: 220px;
+    max-width: 240px;
+    border-right: 1px solid #E0E0E0;
+}
+
+/* ===========================
+   侧边栏按钮（使用 objectName 精确控制）
+   =========================== */
+QPushButton#sidebarButton {
+    padding: 10px 16px 10px 0px;
+    margin: 2px 8px 2px 0px;
+    border: none;
+    background-color: transparent;
+    border-radius: 6px;
+    color: #444;
+}
+
+/* Hover 效果（按钮整体变色） */
+QPushButton#sidebarButton:hover {
+    background-color: #E4EAF1;
+    color: #2C3E50;
+}
+
+/* Checked 效果 */
+QPushButton#sidebarButton:checked {
+    background-color: #D0D7E2;
+    color: #2C3E50;
+    font-weight: bold;
+}
+
+/* ===========================
+   按钮内标签（仅字体颜色，不设背景）
+   =========================== */
+QPushButton#sidebarButton QLabel#iconLabel,
+QPushButton#sidebarButton QLabel#textLabel {
+    color: inherit;
+    font-size: 14px;
+    background: transparent; /* 避免遮盖按钮背景 */
+}
+
+QPushButton#sidebarButton:hover QLabel#iconLabel,
+QPushButton#sidebarButton:hover QLabel#textLabel,
+QPushButton#sidebarButton:checked QLabel#iconLabel,
+QPushButton#sidebarButton:checked QLabel#textLabel {
+    color: #2C3E50;
+    font-weight: bold;
+}
+
+
+/* ===========================
+   内容区域
+   =========================== */
+QStackedWidget {
+    border-radius: 8px;
+    /*padding: 24px;*/
+    margin: 8px;
+}

@@ -1,0 +1,63 @@
+QDialog {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 rgb(240, 245, 255), stop:1 rgb(220, 230, 245));
+}
+
+QLineEdit {
+    background-color: rgba(10,10,10,0);
+    border: 2px solid #CCCCCC;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 24px;
+    font-family: 'KaiTi';
+}
+
+QPushButton#closeButton {
+    background-color: rgba(0,0,0,0);
+    border: none;
+    padding: 5px;
+}
+
+QPushButton#closeButton:hover {
+    background-color: rgba(200,200,200,50);
+    border-radius: 15px;
+}
+
+QPushButton#closeButton:pressed {
+    background-color: rgba(150,150,150,80);
+}
+
+QPushButton#twoButton {
+    color: rgb(78, 164, 220);
+    font-family: 'KaiTi';
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(240,248,255);
+}
+
+QPushButton:hover {
+    background-color: rgb(240,248,255);
+}
+
+QPushButton:pressed {
+    background-color: rgb(240,248,255);
+}
+
+QPushButton#loginButton {
+    background-color: rgb(78, 164, 220);
+    color: white;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 24px;
+    font-family: 'KaiTi';
+    font-weight: bold;
+}
+
+QPushButton#loginButton:hover {
+    background-color: rgb(68, 154, 200);
+}
+
+QPushButton#loginButton:pressed {
+    background-color: rgb(58, 144, 190);
+    padding: 9px 15px 7px 17px;
+}
+    
